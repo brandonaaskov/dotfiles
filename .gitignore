@@ -37,7 +37,9 @@
 .python_history
 .node_repl_history
 
-# Claude Code caches
+# Claude Code — only CLAUDE.md and settings.json are worth tracking
+.claude.json
+.claude/plugins/
 .claude/agents/
 .claude/backups/
 .claude/cache/
