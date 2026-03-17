@@ -1,0 +1,29 @@
+{
+  "model": "opus[1m]",
+  "enabledPlugins": {
+    "clangd-lsp@claude-plugins-official": true,
+    "compound-engineering@every-marketplace": true,
+    "behavioral-state-analysis@quillshield-security-skills": true,
+    "dos-griefing-analysis@quillshield-security-skills": true,
+    "external-call-safety@quillshield-security-skills": true,
+    "input-arithmetic-safety@quillshield-security-skills": true,
+    "proxy-upgrade-safety@quillshield-security-skills": true,
+    "reentrancy-pattern-analysis@quillshield-security-skills": true,
+    "semantic-guard-analysis@quillshield-security-skills": true,
+    "signature-replay-analysis@quillshield-security-skills": true,
+    "state-invariant-detection@quillshield-security-skills": true
+  },
+  "extraKnownMarketplaces": {
+    "quillshield-security-skills": {
+      "source": {
+        "source": "git",
+        "url": "git@github.com:quillai-network/qs_skills.git"
+      }
+    }
+  },
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "high",
+  "feedbackSurveyState": {
+    "lastShownTime": 1753935882894
+  }
+}

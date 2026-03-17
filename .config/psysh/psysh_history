@@ -1,0 +1,366 @@
+_HiStOrY_V2_
+App\134Models\134Chirp:all();
+App\134Models\134Chirp::all();
+exit
+App\134Models\134Chirp:all();
+App\134Models\134Chirp::all();
+App\134Models\134NewsletterSubsriber
+App\134Models\134NewsletterSubsriber\012all
+App\134Models\134NewsletterSubsriber\134all
+exit
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->get();
+DB::table('movies')
+DB::table('movies')->with('characters')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->first();
+DB::table('movies')
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->first();
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->first();
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->first();
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->inRandomOrder()->first();
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->inRandomOrder()->first();
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->inRandomOrder()->first();
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->inRandomOrder()->first();
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->inRandomOrder()->first();
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->inRandomOrder()->first();
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->inRandomOrder()->first();
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->inRandomOrder()->first();
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->inRandomOrder()->first();
+DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->inRandomOrder()->first();
+$movie\040=\040DB::table('movies')->whereJsonContains('genres',\040['Romance',\040'Comedy'])->inRandomOrder()->first();
+$movie->with('characters');
+quit
+Carbon::parse('minutes\040since\040midnight');
+use\040Carbon\134Carbon;
+Carbon::parse('minutes\040since\040midnight');
+Carbon::parse('minutes\040since\040midnight');
+use\040App\134Controllers\134MovieController;
+MovieController::getMinutesUntilMidnight();
+use\040App\134Http\134Controllers\134MovieController;
+MovieController::getMinutesUntilMidnight();
+use\040Illuminate\134Support\134Carbon;
+Cabon::now()
+Carbon::now()
+Carbon.tomorrow();
+Carbon.tomorrow()
+Carbon::tomorrow()
+MovieController::getMinutesUntilMidnight();
+MovieController::getMinutesUntilMidnight();
+Carbon::now()->diffInMinutes(12)
+$now\040=\040Carbon::now()
+$midnight\040=\040Carbon::tomorrow()
+$now->diffInMinutes($midnight)
+(int)\040$now->diffInMinutes($midnight)
+use\040App\134Http\134Controllers\134MovieController;
+MovieController::getMinutesUntilMidnight();
+MovieController::getMinutesUntilMidnight();
+use\040App\134Http\134Controllers\134MovieController;
+MovieController::getMinutesUntilMidnight();
+use\040App\134Http\134Controllers\134MovieController;
+MovieController::getMinutesUntilMidnight();
+use\040Illuminate\134Support\134Carbon;
+Carbon::now()->dayOfYear;
+use\040App\134Models\134Movie;
+Movie::whereLike('name',\040'shawshank')
+Movie::whereLike('name',\040'shawshank')->all()
+Movie::whereLike('name',\040'shawshank')->only('name')
+Movie::whereLike('name',\040'shawshank')
+DB::table('movie')
+DB::table('movies')->whereLike('name',\040'%shank%')->get()
+DB::table('movies')->whereLike('name',\040'%shank%')->get()
+Movie::whereLike('name',\040'%shank%')->get()
+Movie::whereLike('name',\040'%shank%')->select('id',\040'name',\040'release_date\040as\040Year')->get()
+exit
+use\040Carbon\134Carbon;
+Carbon::parse('1994-09-23\04000:00:00')
+Carbon::parse('1994-09-23\04000:00:00')->year
+exit
+use\040App\134Providers\134TmdbServiceProvider;
+TmdbServiceProvider::search('ducks')
+TmdbServiceProvider::search('ducks')
+TmdbServiceProvider::search('mighty\040ducks')
+q
+use\040App\134Services\134EngineService;
+EngineService::getAllAccounts();
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c92",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getAllAccounts()
+EngineService::getAllAccounts()
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"\134Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"\134Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"\134Sent");
+EngineService::getMessages("610770f5-74f3-46e1-bcf2-d33bd4a0c929",\040"\134Sent");
+EngineServic::getMessages("afe70659-cc29-4192-ad68-f7436eabfac1",\040"Sent")
+EngineService::getMessages("afe70659-cc29-4192-ad68-f7436eabfac1",\040"Sent")
+EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")
+EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")
+EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")
+EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")
+EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")
+EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")
+$messages\040=\040EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")
+EngineController::saveMessage($messages[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+$messages[0]
+$messages
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7")[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[0],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[1],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::saveMessage(EngineService::getMessages("7913397a-fdd9-4c13-9aab-7a64010647a7",\040"Sent")[1],\040"7913397a-fdd9-4c13-9aab-7a64010647a7")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("afe70659-cc29-4192-ad68-f7436eabfac1")
+EngineController::savePageMessages("7913397a-fdd9-4c13-9aab-7a64010647a7")
+use App\Models\EngineEmailMessage;
+DB::table('engine_messages')->select(DB::raw('address, COUNT(*) AS count)')
+;
+DB::table('engine_messages')->select(DB::raw('address, COUNT(*) AS count)');
+DB::table('engine_messages')->select(DB::raw('address, COUNT(*) AS count'))
+DB::table('engine_messages')->select(DB::raw('address, COUNT(*) AS count'))->where(function ($query) {})
+DB::table('engine_messages')->select(DB::raw('address, COUNT(*) AS count'))
+DB::table('engine_messages')->select(DB::raw('address, COUNT(*) AS count'))->where(function ($query) use ($accountId, $folderPath) {
+            $query->selectRaw("LOWER(value ->> 'address') AS address")
+            ->from('engine_messages m, json_array_elements(m.to) AS value')
+            ->whereRaw("m.engine_account_id = '$accountId' AND m.path = '$folderPath'")
+        })->groupBy('address')->orderBy('count', 'desc');
+DB::table('engine_messages')->select(DB::raw('address, COUNT(*) AS count'))->where(function ($query) use ($accountId, $folderPath) {
+            $query->selectRaw("LOWER(value ->> 'address') AS address")
+            ->from('engine_messages m, json_array_elements(m.to) AS value')
+            ->whereRaw("m.engine_account_id = '$accountId' AND m.path = '$folderPath'")
+        })->groupBy('address')->orderBy('count', 'desc');
+str('cases.3488340.16013_4182937_78965.722bb8@gmail.com│
+str('cases.3488340.16013_4182937_78965.722bb8@gmail.com')
+str('cases.3488340.16013_4182937_78965.722bb8@gmail.com')->remove([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+str('aaskov@metrocast'net')->split('')
+str('aaskov@metrocast'net')->split('@')
+str('aaskov@metrocast'net')->split('/@/')
+str('aaskov@metrocast.net')->split('/@/')
+str('aaskov@metrocast.net')->split('/@/')->first()
+str('aaskov@metrocast.net')->split('/@/')->first()->contains('noreply')
+str('aaskov@metrocast.net')->split('/@/')->get()
+str('aaskov@metrocast.net')->split('/@/')->get(0)
+str('aaskov@metrocast.net')->split('/@/')->get(0)->contains('adfsf')
+str('aaskov@metrocast.net')->split('/@/')->first()->str()
+collect([false, false, true, false, false])->has(true)
+collect([false, false, true, false, false])->has(false)
+collect([false, false, false, false])->has(false)
+collect([false, false, false, false])->has(true)
+function anonymizeEmail($email) {
+    $parts = explode('@', $email);
+    $name = $parts[0];
+    $domain = $parts[1];
+    $anonymizedName = '';
+    for ($i = 0; $i < strlen($name); $i++) {
+        $char = $name[$i];
+        if (ctype_alpha($char)) {
+            $anonymizedName .= chr(rand(97, 122)); // Random lowercase letter
+        } elseif (ctype_digit($char)) {
+            $anonymizedName .= rand(0, 9); // Random digit
+        } else {
+            $anonymizedName .= $char; // Keep special characters unchanged
+        }
+    }
+    return $anonymizedName . '@' . $domain;
+}
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+collect(json_decode($file, true))->map(function ($item) {
+    return [
+        ...$item,
+        'email' => anonymizeEmail($item["email"])
+    ];
+})->toJson();
+$json = collect(json_decode($file, true))->map(function ($item) {
+    return [
+        ...$item,
+        'email' => anonymizeEmail($item["email"])
+    ];
+})->toJson();
+Storage::disk('local')->put('mocks/whitelist2.json', $json);
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$json = collect(json_decode($file, true))->map(function ($item) {
+    return new WhitelistedAddress([
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+        'count' => $item['count']
+    ]);
+})->toJson();
+use App\Models\WhitelistedAddress;
+$json = collect(json_decode($file, true))->map(function ($item) {
+    return new WhitelistedAddress([
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+        'count' => $item['count']
+    ]);
+})->toJson();
+q~~~~q
+Storage::disk('local')->put('mocks/whitelist2.json', $json);
+$json = collect(json_decode($file, true))->map(function ($item) {
+    return new WhitelistedAddress([
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+        'count' => $item['count']
+    ]);
+})->toJson();
+$decoded = json_decode($file, true);
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$decoded = json_decode($file, true);
+$json = collect()->map(fn ($item) => new WhitelistedAddress(['email' => WhitelistedAddress::getAnonymizedEmail($item['email']), 'count' => $item['count']]))->toJson();
+$json = collect()
+use App\Models\WhitelistedAddress;
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$decoded = json_decode($file, true);$decoded = json_decode($file, true);$decoded = json_decode($file, true);$decoded = json_decode($file, true);
+use App\Models\WhitelistedAddress;
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$decoded = json_decode($file, true);
+$json = collect($decoded)
+$json = collect($decoded)->map(function ($item) {
+    return new WhitelistedAddress([
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+        'count' => $item['count']
+    ]);
+})->toJson();
+Storage::disk('local')->put('mocks/whitelist2.json', $json);
+$json = collect($decoded)->map(function ($item) {
+    return new WhitelistedAddress([
+        ...$item,
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+    ]);
+})->toJson();
+Storage::disk('local')->put('mocks/whitelist2.json', $json);
+$json = collect($decoded)->map(function ($item) {
+    return [
+        ...$item,
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+    ];
+})->toJson();
+Storage::disk('local')->put('mocks/whitelist2.json', $json);
+use App\Models\WhitelistedAddress;
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$decoded = json_decode($file, true);q
+use App\Models\WhitelistedAddress;
+$decoded = json_decode($file, true);
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$decoded = json_decode($file, true);
+$json = collect($decoded)->map(function ($item) {
+    return [
+        ...$item,
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+    ];
+})->toJson();
+Storage::disk('local')->put('mocks/whitelist2.json', $json);
+$json = collect($decoded)->map(function ($item) {
+    return [
+        ...$item,
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+    ];
+})->toJson();
+Storage::disk('local')->put('mocks/whitelist2.json', $json);
+str('purchase-support@youtube.com')->contains('support')
+$json = collect($decoded)->map(function ($item) {
+    return [
+        ...$item,
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+    ];
+})->toJson();
+Storage::disk('local')->put('mocks/whitelist2.json', $json);
+use App\Models\WhitelistedAddress;
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$decoded = json_decode($file, true);
+$json = collect($decoded)->map(function ($item) {
+    return [
+        ...$item,
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+    ];
+})->toJson();
+Storage::disk('local')->put('mocks/whitelist2.json', $json);
+$json = collect($decoded)->map(function ($item) {
+    return [
+        ...$item,
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+    ];
+})->toJson();
+Storage::disk('local')->put('mocks/whitelist2.json', $json);
+use App\Models\WhitelistedAddress;
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$json = collect($decoded)->map(function ($item) {
+    return [
+        ...$item,
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+    ];
+})->toJson();
+$decoded = json_decode($file, true);
+$json = collect($decoded)->map(function ($item) {
+    return [
+        ...$item,
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+    ];
+})->toJson();
+use App\Models\WhitelistedAddress;
+$file = file_get_contents(__DIR__ . '/tests/Mocks/whitelist.json');
+$json = collect($decoded)->map(function ($item) {
+    return [
+        ...$item,
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+    ];
+})->toJson();
+$decoded = json_decode($file, true);
+$json = collect($decoded)->map(function ($item) {
+    return [
+        ...$item,
+        'email' => WhitelistedAddress::getAnonymizedEmail($item['email']),
+    ];
+})->toJson();
+Storage::disk('local')->put('mocks/whitelist2.json', $json);
+use App\Models\WhitelistedAddress;
+WhitelistedAddress::writeWhitelistMock()
+WhitelistedAddress::writeWhitelistMock()
+WhitelistedAddress::writeWhitelistMock()
+use App\Models\WhitelistedAddress;
+WhitelistedAddress::writeWhitelistMock()
+collect(['good@example.com'])->diff(['good@example.com', 'bad', bad'])
+collect(['good@example.com'])->diff(['good@example.com', 'bad', 'bad'])
+$likelyGarbage = ['good', 'bad', 'bad']
+$garbageToKeep = ['good']
+collect($likelyGarbage)->diff($garbageToKeep)
+collect($likelyGarbage)->intersect($garbageToKeep)

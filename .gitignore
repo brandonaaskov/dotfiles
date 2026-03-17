@@ -1,0 +1,65 @@
+# Secrets — defense in depth (also in blacklist and hardcoded in Makefile)
+.ssh/
+.aws/
+.gnupg/
+.netrc
+.docker/
+.kube/
+.mcp-auth/
+.railway/
+.gk/
+.config/gcloud/
+.config/firebase/
+.config/stripe/
+.config/infracost/
+
+# Large caches that should never enter git
+.npm/
+.bun/
+.nvm/
+.cargo/
+.rustup/
+.rvm/
+.gem/
+.cache/
+.yarn/
+.pnpm-store/
+.vscode/
+.cursor/
+.platformio/
+.wine/
+
+# History files
+.bash_history
+.zsh_history
+.zsh_sessions/
+.psql_history
+.python_history
+.node_repl_history
+
+# Claude Code caches
+.claude/agents/
+.claude/backups/
+.claude/cache/
+.claude/chrome/
+.claude/debug/
+.claude/file-history/
+.claude/ide/
+.claude/plans/
+.claude/plugins/cache/
+.claude/plugins/marketplaces/
+.claude/plugins/repos/
+.claude/paste-cache/
+.claude/projects/
+.claude/session-env/
+.claude/sessions/
+.claude/shell-snapshots/
+.claude/statsig/
+.claude/tasks/
+.claude/telemetry/
+.claude/todos/
+.claude/history.jsonl
+
+# OS
+.DS_Store
+.Trash/
