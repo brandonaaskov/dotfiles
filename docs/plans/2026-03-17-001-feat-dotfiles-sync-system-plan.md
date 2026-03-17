@@ -1,7 +1,7 @@
 ---
 title: "feat: Dotfiles sync system with Makefile"
 type: feat
-status: active
+status: completed
 date: 2026-03-17
 origin: docs/brainstorms/2026-03-17-dotfiles-sync-requirements.md
 ---
@@ -492,7 +492,7 @@ _check-blacklist:
 - [x] Check that cache directories (`.npm/`, `.nvm/`, `.cache/`) are NOT in the repo
 - [x] Run `make push` and verify dry-run output
 - [x] Run `make diff` and verify it shows meaningful differences
-- [ ] Commit the initial pull
+- [x] Commit the initial pull
 
 ## Sources & References
 
