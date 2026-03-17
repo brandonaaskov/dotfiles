@@ -9,11 +9,10 @@ A copy-based dotfiles sync system. Files are copied (not symlinked) between `~` 
 ## Commands
 
 ```
-make pull          # Copy dotfiles from ~ into repo (backup)
-make push          # Dry-run: preview what would be deployed
-make push APPLY=1  # Actually deploy dotfiles from repo to ~
-make diff          # Show what differs between ~ and repo
-make help          # List targets
+make pull   # Copy dotfiles from ~ into repo (backup)
+make push   # Deploy dotfiles from repo to ~
+make diff   # Show what differs between ~ and repo
+make help   # List targets
 ```
 
 ## How It Works

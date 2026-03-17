@@ -24,10 +24,9 @@ PUSH_FLAGS := -av
 
 help: ## Show available targets
 	@echo "Dotfiles sync:"
-	@echo "  make pull          Pull dotfiles from system into repo"
-	@echo "  make push          Dry-run: show what push would change"
-	@echo "  make push APPLY=1  Actually push dotfiles to system"
-	@echo "  make diff          Show differences between system and repo"
+	@echo "  make pull   Pull dotfiles from system into repo"
+	@echo "  make push   Push dotfiles from repo to system"
+	@echo "  make diff   Show differences between system and repo"
 
 pull: _check-blacklist ## Pull dotfiles from ~ into repo
 	@echo "Pulling home directory dotfiles..."
@@ -52,8 +51,7 @@ pull: _check-blacklist ## Pull dotfiles from ~ into repo
 	fi
 	@echo "Done. Review changes with: git diff"
 
-push: ## Push dotfiles from repo to ~ (dry-run by default)
-ifdef APPLY
+push: ## Push dotfiles from repo to ~
 	@echo "Pushing dotfiles to $(HOME_DIR)..."
 	rsync $(PUSH_FLAGS) \
 		$(SECRETS) $(REPO_FILES) \
@@ -74,29 +72,6 @@ ifdef APPLY
 		done < $(WHITELIST); \
 	fi
 	@echo "Done."
-else
-	@echo "DRY RUN — showing what would change:"
-	@echo ""
-	@echo "Home directory dotfiles:"
-	@rsync -avn \
-		$(SECRETS) $(REPO_FILES) \
-		$(DOTFILES_ONLY) \
-		./ $(HOME_DIR)/ 2>/dev/null | tail -n +2 | grep -v '^\s*$$' || echo "  (no changes)"
-	@if [ -f $(WHITELIST) ]; then \
-		echo ""; \
-		echo "Whitelisted non-home files:"; \
-		while IFS= read -r path; do \
-			[ -z "$$path" ] && continue; \
-			echo "$$path" | grep -q '^#' && continue; \
-			src=".$${path}"; \
-			if [ -e "$$src" ]; then \
-				rsync -avn "$$src" "$$path" 2>/dev/null | tail -n +2 | grep -v '^\s*$$' || true; \
-			fi; \
-		done < $(WHITELIST); \
-	fi
-	@echo ""
-	@echo "Run 'make push APPLY=1' to apply."
-endif
 
 diff: ## Show differences between system and repo
 	@echo "Files that differ between system and repo:"
