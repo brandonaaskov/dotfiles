@@ -1,5 +1,5 @@
 # Add deno completions to search path
-if [[ ":$FPATH:" != *":/Users/brandonaaskov/.zsh/completions:"* ]]; then export FPATH="/Users/brandonaaskov/.zsh/completions:$FPATH"; fi
+if [[ ":$FPATH:" != *":/Users/mainframelabs/.zsh/completions:"* ]]; then export FPATH="/Users/mainframelabs/.zsh/completions:$FPATH"; fi
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -11,10 +11,9 @@ fi
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$(brew --prefix openvpn)/sbin:$PATH
 export PATH=$HOME/.deno/bin:$PATH
-export PATH=$HOME/.cargo/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/brandonaaskov/.oh-my-zsh"
+export ZSH="/Users/mainframelabs/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -226,8 +225,8 @@ exif () {
 }
 
 stl () {
-  # find /Users/brandonaaskov/dev/Adafruit_CAD_Parts -type f -name '*.stl' | grep -i "$1" | xargs -n 1 basename
-  find /Users/brandonaaskov/dev/Adafruit_CAD_Parts -type f -name '*.stl' -print0 | grep -iz "$1" | xargs -0 -n 1 basename
+  # find /Users/mainframelabs/dev/Adafruit_CAD_Parts -type f -name '*.stl' | grep -i "$1" | xargs -n 1 basename
+  find /Users/mainframelabs/dev/Adafruit_CAD_Parts -type f -name '*.stl' -print0 | grep -iz "$1" | xargs -0 -n 1 basename
 }
 
 mcu() {
@@ -303,30 +302,30 @@ export NVM_DIR="$HOME/.nvm"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # pnpm
-export PNPM_HOME="/Users/brandonaaskov/Library/pnpm"
+export PNPM_HOME="/Users/mainframelabs/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/brandonaaskov/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/brandonaaskov/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/mainframelabs/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/mainframelabs/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/brandonaaskov/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/brandonaaskov/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-fpath=(/Users/brandonaaskov/.local/share/zsh-completion/completions $fpath) # avalanche completion
+if [ -f '/Users/mainframelabs/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mainframelabs/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+fpath=(/Users/mainframelabs/.local/share/zsh-completion/completions $fpath) # avalanche completion
 rm -f ~/.zcompdump; compinit # avalanche completion
 
 
 # Herd injected PHP 8.3 configuration.
-export HERD_PHP_83_INI_SCAN_DIR="/Users/brandonaaskov/Library/Application Support/Herd/config/php/83/"
+export HERD_PHP_83_INI_SCAN_DIR="/Users/mainframelabs/Library/Application Support/Herd/config/php/83/"
 
 
 # Herd injected PHP binary.
-export PATH="/Users/brandonaaskov/Library/Application Support/Herd/bin/":$PATH
+export PATH="/Users/mainframelabs/Library/Application Support/Herd/bin/":$PATH
 
 
 # Herd injected PHP 8.4 configuration.
-export HERD_PHP_84_INI_SCAN_DIR="/Users/brandonaaskov/Library/Application Support/Herd/config/php/84/"
+export HERD_PHP_84_INI_SCAN_DIR="/Users/mainframelabs/Library/Application Support/Herd/config/php/84/"
 
-# export NODE_EXTRA_CA_CERTS="/Users/brandonaaskov/Library/Application Support/Herd/config/valet/CA/LaravelValetCASelfSigned.pem"
+# export NODE_EXTRA_CA_CERTS="/Users/mainframelabs/Library/Application Support/Herd/config/valet/CA/LaravelValetCASelfSigned.pem"
 export PATH="/usr/local/opt/qt/bin:$PATH"
 export PATH="/usr/local/opt/qt/bin:$PATH"
 export PATH="/usr/local/opt/qt@5/bin:$PATH"
@@ -337,7 +336,7 @@ export BLINKA_U2IF="1"
 export PATH="$PATH:$HOME/.rvm/bin"
 
 # bun completions
-[ -s "/Users/brandonaaskov/.bun/_bun" ] && source "/Users/brandonaaskov/.bun/_bun"
+[ -s "/Users/mainframelabs/.bun/_bun" ] && source "/Users/mainframelabs/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
@@ -346,14 +345,13 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # export DO_NOT_TRACK=1
 # export NODE_EXTRA_CA_CERTS="/System/Library/OpenSSL/certs/cert.pem"
 
-. "$HOME/.langflow/uv/env"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # Herd injected PHP 8.5 configuration.
-export HERD_PHP_85_INI_SCAN_DIR="/Users/brandonaaskov/Library/Application Support/Herd/config/php/85/"
+export HERD_PHP_85_INI_SCAN_DIR="/Users/mainframelabs/Library/Application Support/Herd/config/php/85/"
 
 # Added by Antigravity
-export PATH="/Users/brandonaaskov/.antigravity/antigravity/bin:$PATH"
+export PATH="/Users/mainframelabs/.antigravity/antigravity/bin:$PATH"
 export PATH="/opt/homebrew/opt/e2fsprogs/bin:$PATH"
 export PATH="/opt/homebrew/opt/e2fsprogs/sbin:$PATH"
 export PATH="$HOME/.foundry/bin:$PATH"
