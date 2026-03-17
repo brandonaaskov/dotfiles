@@ -59,6 +59,7 @@
 .claude/telemetry/
 .claude/todos/
 .claude/history.jsonl
+.claude/image-cache/
 
 # OS
 .DS_Store

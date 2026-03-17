@@ -127,6 +127,7 @@
 .claude/telemetry
 .claude/todos
 .claude/history.jsonl
+.claude/image-cache
 .claude/stats-cache.json
 .claude/mcp-needs-auth-cache.json
 
